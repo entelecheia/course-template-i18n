@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting</title>
+    <script>
+      var userLang = navigator.language || navigator.userLanguage;
+      var langPrefix = userLang.split("-")[0];
+      var supportedLangs = ["en", "ko"];
+      var targetLang = supportedLangs.includes(langPrefix) ? langPrefix : "en";
+      window.location.replace("/" + targetLang + "/");
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to the appropriate language...</p>
+  </body>
+</html>
