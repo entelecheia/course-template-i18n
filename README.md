@@ -1,9 +1,6 @@
-# Course Template
+# Course Template Internationalization
 
-
-[![halla-img]][halla-url]
-[![course-img]][course-url]
-[![lecture-img]][lecture-url]
+[![pypi-image]][pypi-url]
 [![version-image]][release-url]
 [![release-date-image]][release-url]
 [![license-image]][license-url]
@@ -11,37 +8,30 @@
 [![jupyter-book-image]][docs-url]
 
 <!-- Links: -->
-[halla-img]: https://img.shields.io/badge/CHU-halla.ai-blue
-[halla-url]: https://halla.ai
-[course-img]: https://img.shields.io/badge/course-entelecheia.ai-blue
-[course-url]: https://course.entelecheia.ai
-[lecture-img]: https://img.shields.io/badge/lecture-entelecheia.ai-blue
-[lecture-url]: https://lecture.entelecheia.ai
-
-[codecov-image]: https://codecov.io/gh/entelecheia/course-template/branch/main/graph/badge.svg?token=qlsfdVYveD
-[codecov-url]: https://codecov.io/gh/entelecheia/course-template
-[pypi-image]: https://img.shields.io/pypi/v/course-template
-[license-image]: https://img.shields.io/github/license/entelecheia/course-template
-[license-url]: https://github.com/entelecheia/course-template/blob/main/LICENSE
-[version-image]: https://img.shields.io/github/v/release/entelecheia/course-template?sort=semver
-[release-date-image]: https://img.shields.io/github/release-date/entelecheia/course-template
-[release-url]: https://github.com/entelecheia/course-template/releases
+[codecov-image]: https://codecov.io/gh/entelecheia/course-template-i18n/branch/main/graph/badge.svg?token=usYkLC6aBx
+[codecov-url]: https://codecov.io/gh/entelecheia/course-template-i18n
+[pypi-image]: https://img.shields.io/pypi/v/course-template-i18n
+[license-image]: https://img.shields.io/github/license/entelecheia/course-template-i18n
+[license-url]: https://github.com/entelecheia/course-template-i18n/blob/main/LICENSE
+[version-image]: https://img.shields.io/github/v/release/entelecheia/course-template-i18n?sort=semver
+[release-date-image]: https://img.shields.io/github/release-date/entelecheia/course-template-i18n
+[release-url]: https://github.com/entelecheia/course-template-i18n/releases
 [jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
 
-[repo-url]: https://github.com/entelecheia/course-template
-[pypi-url]: https://pypi.org/project/course-template
-[docs-url]: https://entelecheia.github.io/course-template
-[changelog]: https://github.com/entelecheia/course-template/blob/main/CHANGELOG.md
-[contributing guidelines]: https://github.com/entelecheia/course-template/blob/main/CONTRIBUTING.md
+[repo-url]: https://github.com/entelecheia/course-template-i18n
+[pypi-url]: https://pypi.org/project/course-template-i18n
+[docs-url]: https://entelecheia.github.io/course-template-i18n
+[changelog]: https://github.com/entelecheia/course-template-i18n/blob/main/CHANGELOG.md
+[contributing guidelines]: https://github.com/entelecheia/course-template-i18n/blob/main/CONTRIBUTING.md
 <!-- Links: -->
 
-Streamlined course creation template with interactive documentation support
+Multilingual course creation template with interactive documentation support for international audiences
 
-- Documentation: [https://entelecheia.github.io/course-template][docs-url]
-- GitHub: [https://github.com/entelecheia/course-template][repo-url]
-- PyPI: [https://pypi.org/project/course-template][pypi-url]
+- Documentation: [https://entelecheia.github.io/course-template-i18n][docs-url]
+- GitHub: [https://github.com/entelecheia/course-template-i18n][repo-url]
+- PyPI: [https://pypi.org/project/course-template-i18n][pypi-url]
 
-This project provides a comprehensive and flexible template for creating and managing online courses, leveraging GitHub for version control and Jupyter Book for interactive content delivery, enabling educators to easily develop, maintain, and share their educational materials.
+This project provides a comprehensive and flexible template for creating and managing multilingual online courses. It leverages GitHub for version control and Jupyter Book for interactive content delivery, enabling educators to easily develop, maintain, and share their educational materials across different languages and cultures.
 
 ## Changelog
 
