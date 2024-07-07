@@ -98,7 +98,9 @@ initialize: install-pipx ## initialize the project environment
 	@pre-commit install
 
 remove-template: ## remove template-specific files
-	@rm -rf src/coursetemp
+	@rm -rf src/coursetempi
+	@rm -rf tests/coursetempi
+	@rm -rf CHANGELOG.md
 	@echo "Template-specific files removed."
 
 init-project: initialize remove-template ## initialize the project (Warning: do this only once!)

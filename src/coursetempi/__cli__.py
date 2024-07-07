@@ -1,10 +1,10 @@
-"""Command line interface for coursetemp"""
+"""Command line interface for coursetempi"""
 
 # Importing the libraries
 
 import click
 
-from coursetemp._version import __version__
+from coursetempi._version import __version__
 
 
 @click.command()
@@ -23,7 +23,7 @@ def main(count, name):
     # Print a message to the user.
     for _ in range(count):
         click.echo(f"Hello, {name}!")
-        click.echo(f"This is coursetemp version {__version__}.")
+        click.echo(f"This is coursetempi version {__version__}.")
 
 
 # main function for the main module

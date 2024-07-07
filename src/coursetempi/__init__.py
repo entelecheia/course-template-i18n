@@ -1,4 +1,4 @@
-from coursetemp._version import __version__
+from coursetempi._version import __version__
 
 
 def get_version() -> str:
