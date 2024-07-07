@@ -1,0 +1,65 @@
+/*===========================================================================*/
+/* Language Selector Styles */
+/*===========================================================================*/
+
+/* Remove bullet points from all menu items in the language selector */
+.menu li {
+  list-style: none;
+}
+
+/* Style for menu items on hover and current item */
+.menu li:hover > a,
+.menu .current-item > a {
+  text-decoration: none;
+  color: #f2f2f2; /* 95% white for better visibility */
+}
+
+/* Style for the dropdown arrow */
+.menu .arrow {
+  font-size: 1em;
+}
+
+/* Style for the top-level menu item (current language) */
+.menu > ul > li > a {
+  padding: 0em 2em 1em 0em;
+  display: inline-block;
+}
+
+/* Container for the language selector */
+.sidebar-lang-select {
+  text-align: center;
+  background-color: #059b7d; /* Mint green to match the sidebar */
+}
+
+/* Show submenu on hover */
+.menu li:hover .sub-menu {
+  z-index: 1;
+  opacity: 1;
+}
+
+/* Styles for the language submenu */
+.sub-menu {
+  width: 80%;
+  padding: 0.2em 0em;
+  position: absolute;
+  top: 80%;
+  left: 10%; /* Center the submenu */
+  z-index: -1;
+  opacity: 0;
+  transition: opacity linear 0.2s;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  background: #4e4040; /* Slightly lighter than the sidebar for contrast */
+}
+
+/* Style for individual language options in the submenu */
+.sub-menu li a {
+  padding: 0.5em;
+  display: block;
+  color: #bfbfbf; /* 75% white for normal state */
+}
+
+/* Style for hovered language options in the submenu */
+.sub-menu li a:hover,
+.sub-menu .current-item a {
+  color: #66b3ff; /* Light blue for hover state */
+}
