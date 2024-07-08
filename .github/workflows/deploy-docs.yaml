@@ -32,7 +32,7 @@ jobs:
       - name: Build the book
         run: |
           pip install -r book/requirements.txt
-          jupyter-book build book
+          bash book/_scripts/build.sh --all
 
       # Deploy the book's HTML to gh-pages branch
       - name: GitHub Pages action
@@ -40,4 +40,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: book/_build/html
-          cname: 
+          cname:
