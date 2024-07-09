@@ -6,10 +6,7 @@ function switchLanguage(newLang) {
 
     if (langRegex.test(currentPath)) {
         // If the current path contains a language code, replace it
-        var newPath = currentPath.replace(langRegex, newLang);
+        var newPath = window.location.origin + currentPath.replace(langRegex, newLang);
         window.location.href = newPath + window.location.search + window.location.hash;
-    } else {
-        // If no language code is found, prepend the new language
-        window.location.href = '/' + newLang + currentPath + window.location.search + window.location.hash;
     }
 }
