@@ -1,5 +1,16 @@
 <!--next-version-placeholder-->
 
+## v0.3.0 (2024-07-13)
+
+### Feature
+
+* **book:** Integrate Giscus comments system ([`e86203c`](https://github.com/entelecheia/course-template-i18n/commit/e86203ca6c7501b2fdaaaf498c576757495ef91d))
+
+### Fix
+
+* **language_redirect:** Ensure siteURL ends with a to prevent redirect errors ([`67a9ea7`](https://github.com/entelecheia/course-template-i18n/commit/67a9ea70def09fa58eb4974285b38d392b2f24fa))
+* **language_switcher:** Correct URL generation for language switch ([`65807f8`](https://github.com/entelecheia/course-template-i18n/commit/65807f8598d4ff34c25ba27b8d9bb859602418a6))
+
 ## v0.2.0 (2024-07-08)
 
 ### Feature
