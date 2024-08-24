@@ -1,5 +1,15 @@
 <!--next-version-placeholder-->
 
+## v0.4.0 (2024-08-24)
+
+### Feature
+
+* Update copier source path to hyperfast-course-template and add language codes and names ([`41ce76d`](https://github.com/entelecheia/course-template-i18n/commit/41ce76d02c398bc49c3d3300057cb71d1dd6d17c))
+
+### Fix
+
+* **config:** Correct path_to_book for English and Korean versions ([`3c3fe9c`](https://github.com/entelecheia/course-template-i18n/commit/3c3fe9c468fb624333b1b83a9f1a1b9c67703190))
+
 ## v0.3.0 (2024-07-13)
 
 ### Feature
