@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.14.4
+_commit: v0.1.0
 _src_path: gh:entelecheia/hyperfast-course-template
 author: Young Joon Lee
 build_and_release: true
@@ -7,14 +7,20 @@ code_template_answers_file: .copier-hyfi-config.yaml
 code_template_source: ''
 codecov_graph_token: usYkLC6aBx
 copyright_year: 2024
-documentaion_tool: jupyter-book
 documentation_url: https://entelecheia.github.io/course-template-i18n
 email: entelecheia@hotmail.com
 favicon_path: https://assets.entelecheia.ai/favicon.png
 friendly_name: Course Template Internationalization
+giscus_data_category: Q&A
+giscus_data_category_id: DIC_kwDOH-wD9M4CWANU
+giscus_data_repo_id: R_kgDOH-wD9A
 github_repo_name: course-template-i18n
 github_username: entelecheia
 google_analytics_id: G-BQJE5V9RK2
+lang_code_1: en
+lang_code_2: ko
+lang_name_1: English
+lang_name_2: 한국어
 logo_path: ''
 main_branch: main
 open_link: true
